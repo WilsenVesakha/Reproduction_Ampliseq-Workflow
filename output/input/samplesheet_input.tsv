@@ -1,0 +1,5 @@
+sampleID	forwardReads	reverseReads
+sampleID_1a	/workspace/ampliseq/datasetnf/1a_S103_L001_R1_001.fastq.gz	/workspace/ampliseq/datasetnf/1a_S103_L001_R2_001.fastq.gz
+sampleID_1	/workspace/ampliseq/datasetnf/1_S103_L001_R1_001.fastq.gz	/workspace/ampliseq/datasetnf/1_S103_L001_R2_001.fastq.gz
+sampleID_2a	/workspace/ampliseq/datasetnf/2a_S115_L001_R1_001.fastq.gz	/workspace/ampliseq/datasetnf/2a_S115_L001_R2_001.fastq.gz
+sampleID_2	/workspace/ampliseq/datasetnf/2_S115_L001_R1_001.fastq.gz	/workspace/ampliseq/datasetnf/2_S115_L001_R2_001.fastq.gz

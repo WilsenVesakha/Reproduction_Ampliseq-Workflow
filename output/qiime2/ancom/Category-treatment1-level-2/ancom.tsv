@@ -1,0 +1,14 @@
+	W	Reject null hypothesis
+Bacteria;Patescibacteria	10	True
+Bacteria;Firmicutes	6	False
+Bacteria;Gemmatimonadota	5	False
+Bacteria;Margulisbacteria	4	False
+Bacteria;Desulfobacterota	4	False
+Bacteria;Nitrospirota	3	False
+Bacteria;Methylomirabilota	3	False
+Bacteria;Bacteroidota	3	False
+Bacteria;Proteobacteria	2	False
+Bacteria;Omnitrophota	1	False
+Bacteria;Desulfobacterota_E	1	False
+Bacteria;	0	False
+Bacteria;Acidobacteriota	0	False

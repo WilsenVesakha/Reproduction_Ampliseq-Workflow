@@ -1,0 +1,19 @@
+	W	Reject null hypothesis
+Bacteria;Nitrospirota;Nitrospiria	10	True
+Bacteria;Firmicutes;Bacilli	10	True
+Bacteria;Gemmatimonadota;Gemmatimonadetes	9	True
+Bacteria;Patescibacteria;Paceibacteria	5	False
+Bacteria;Margulisbacteria;WOR-1	5	False
+Bacteria;Omnitrophota;Omnitrophia	4	False
+Bacteria;Desulfobacterota;GWC2-55-46	4	False
+Bacteria;Proteobacteria;Gammaproteobacteria	4	False
+Bacteria;Patescibacteria;ABY1	4	False
+Bacteria;Patescibacteria;Gracilibacteria	4	False
+Bacteria;Methylomirabilota;Methylomirabilia	3	False
+Bacteria;Patescibacteria;	1	False
+Bacteria;Desulfobacterota_E;MBNT15	1	False
+Bacteria;;	0	False
+Bacteria;Omnitrophota;Koll11	0	False
+Bacteria;Nitrospirota;Thermodesulfovibrionia	0	False
+Bacteria;Acidobacteriota;Mor1	0	False
+Bacteria;Bacteroidota;Bacteroidia	0	False

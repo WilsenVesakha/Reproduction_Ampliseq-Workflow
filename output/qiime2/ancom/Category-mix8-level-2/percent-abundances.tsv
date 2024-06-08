@@ -1,0 +1,15 @@
+Percentile	0.0	25.0	50.0	75.0	100.0	0.0	25.0	50.0	75.0	100.0
+Group	2	2	2	2	2	a	a	a	a	a
+Bacteria;Proteobacteria	626.0	653.75	681.5	709.25	737.0	84.0	102.5	121.0	139.5	158.0
+Bacteria;	1.0	2.5	4.0	5.5	7.0	84.0	86.5	89.0	91.5	94.0
+Bacteria;Nitrospirota	25.0	28.5	32.0	35.5	39.0	124.0	129.0	134.0	139.0	144.0
+Bacteria;Firmicutes	22.0	22.25	22.5	22.75	23.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Patescibacteria	1.0	1.0	1.0	1.0	1.0	125.0	128.5	132.0	135.5	139.0
+Bacteria;Omnitrophota	37.0	47.75	58.5	69.25	80.0	46.0	47.5	49.0	50.5	52.0
+Bacteria;Methylomirabilota	1.0	1.0	1.0	1.0	1.0	19.0	20.25	21.5	22.75	24.0
+Bacteria;Gemmatimonadota	5.0	5.5	6.0	6.5	7.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Margulisbacteria	1.0	1.0	1.0	1.0	1.0	21.0	22.5	24.0	25.5	27.0
+Bacteria;Acidobacteriota	1.0	1.0	1.0	1.0	1.0	5.0	8.25	11.5	14.75	18.0
+Bacteria;Desulfobacterota	1.0	1.0	1.0	1.0	1.0	8.0	8.25	8.5	8.75	9.0
+Bacteria;Bacteroidota	6.0	8.0	10.0	12.0	14.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Desulfobacterota_E	1.0	1.0	1.0	1.0	1.0	9.0	10.5	12.0	13.5	15.0

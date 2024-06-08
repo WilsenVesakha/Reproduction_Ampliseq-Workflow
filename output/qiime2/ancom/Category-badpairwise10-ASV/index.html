@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_composition : ancom</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/base-template.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/bootstrap.min.js" charset="utf-8"></script>
+    
+  <script src="js/vega.min.js"></script>
+  <script src="js/vega-embed.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/spinkit.css">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="q2templatesheader" class="row">
+        <div class="col-lg-12">
+          <a href="http://qiime2.org/">
+            <img src="./q2templateassets/img/qiime2-rect-200.png"
+            alt="QIIME 2">
+          </a>
+        </div>
+      </div>
+        
+
+<div class="row">
+  <div class="col-lg-8">
+    <h3>ANCOM Volcano Plot</h3>
+    <div id="toolbar"></div>
+    
+    <div id="plot">
+      <div id="loading" class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-lg-6">
+    <h4>ANCOM statistical results</h4>
+    
+      <p class="alert alert-warning">No significant features found</p>
+    
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-lg-12">
+    <h4>Percentile abundances of features by group</h4>
+    
+      <p class="alert alert-warning">No significant features found</p>
+    
+  </div>
+</div>
+
+    </div>
+    <script type="text/javascript">
+      if (window.frameElement) {
+          document.getElementById('q2templatesheader').remove();
+      }
+    </script>
+    
+
+
+
+
+
+<script type="text/javascript">
+  function handleErrors(errors, element, msg) {
+    console.error(errors);
+    msg = msg === undefined ? '' : msg + '<br><br>';
+    var helpMsg = '<p class="alert alert-danger"> \
+                   There was an error loading and rendering the \
+                   visualization.<br><br>' + msg + 'Please \
+                   copy-and-paste the following error messages when \
+                   reporting this error (please be aware that the content \
+                   of your analysis data and/or metadata is included in \
+                   these messages):</p>';
+    var helpMsgDiv = $('<div></div>');
+    helpMsgDiv.append(helpMsg);
+    helpMsgDiv.append('<pre><code>' + errors.join('\n\n') + '</code></pre>');
+    element.replaceWith(helpMsgDiv);
+  }
+  window.onerror = function(error) {
+    handleErrors([error], $('#loading'));
+  };
+</script>
+
+<script id="spec" type="application/json">{"$schema": "https://vega.github.io/schema/vega/v4.json", "width": 300, "height": 300, "data": [{"name": "values", "values": [{"id": "02b4cbe5c2955ab2f66dc82cdf6dad64", "clr": -1.1112923528214924, "W": 0}, {"id": "1304d0f9dc2397bbf02e61577a2f5adc", "clr": -0.47480951491504864, "W": 0}, {"id": "1f8747026500ce37ab66b935d9b1b53e", "clr": -2.0151064392897604, "W": 0}, {"id": "25e119f38effd7d58bf3442bd40eaf00", "clr": 2.6324945342960477, "W": 0}, {"id": "266d3c050f6688d15024f3c36c9328d8", "clr": -0.4362146955694841, "W": 1}, {"id": "2bfdfef3ab9fe4d267c52f8ee5c80ddd", "clr": -0.20685988425599522, "W": 0}, {"id": "3421464bea79a54e7eef62009457230b", "clr": -1.5553793564651652, "W": 0}, {"id": "38c27ceaed634984c1225a82648cf571", "clr": -0.42890574028848705, "W": 0}, {"id": "3ebe761bfb1238c87195d431f41bf976", "clr": 1.21623400281482, "W": 0}, {"id": "54c05a1e59ddd42bd97a0a8f522bf591", "clr": -0.8332413685036792, "W": 1}, {"id": "59dd6d3f3f896c4309537cf26c3597a3", "clr": 2.0893996499612713, "W": 0}, {"id": "615d65be0a5ba4f62e9d7aa1bffb4277", "clr": -1.2002259560437796, "W": 2}, {"id": "67e959ec1398cee2946858ecda5af98b", "clr": 1.246200173176157, "W": 0}, {"id": "7346ee25c4de4df48f80d736342c1c02", "clr": 1.2462001731761563, "W": 0}, {"id": "7da5a08a0f3713731b1ec0bdefe97783", "clr": -0.5393480360526199, "W": 0}, {"id": "7e7deb01f0491d33ecb87427fcbeb1ee", "clr": 1.7610098817667361, "W": 0}, {"id": "87e503bff5c5886e5938a97aa0afb1d5", "clr": -0.6739393771084956, "W": 0}, {"id": "89fa0981707da59c8cede9f5d70afe62", "clr": -1.2002259560437796, "W": 2}, {"id": "8b91e5b1c412877f96a4a342ab6dc680", "clr": 0.5156912195182433, "W": 0}, {"id": "906a06fc904a9a11c50b0a100467961b", "clr": -0.4647081612562891, "W": 1}, {"id": "a9cdace376f468b22ea7bac7de7e029c", "clr": -0.4017182598260083, "W": 3}, {"id": "aeda648ef1ccaf013a70453eee0caf8a", "clr": -0.08395040754443772, "W": 0}, {"id": "b230be8a10f78f48e504b8dc5cfa7afb", "clr": -0.5070787754838342, "W": 3}, {"id": "b39be459cc96689db8cd6b00a0d86e8e", "clr": 4.808439304422869, "W": 0}, {"id": "b39f90da9ee92988c2e0f57748c70f4c", "clr": -0.878047447848523, "W": 1}, {"id": "b7d6cf3f7467ca45087ca083796a0af0", "clr": 2.744066309953152, "W": 0}, {"id": "c02e74171a45a7d8308e4581e6b79eab", "clr": -0.8213831051950216, "W": 1}, {"id": "c1cd0bc45f873697ab9156e7147e8d76", "clr": -1.1505130659747735, "W": 0}, {"id": "c4dc084b83476f4b2c829da5b52fcb4d", "clr": -1.206437216043058, "W": 1}, {"id": "cbff13b5013921139f28a5115cf9f7a8", "clr": -0.8009721079348939, "W": 1}, {"id": "d69464b2275c7c4514b5858d01db39b8", "clr": -1.086351090179226, "W": 0}, {"id": "d88abff2ed5af388abe3bd71809f70e1", "clr": -1.4747172218608067, "W": 0}, {"id": "da13eb51a23731d1542076afd2a4882d", "clr": 1.9870024436382647, "W": 0}, {"id": "e04265a1b5b74d599d1000ac0f280268", "clr": -0.7574664194400789, "W": 0}, {"id": "e149acb95b2ccf99ebccc818ef8aac1f", "clr": -0.19500162094733708, "W": 0}, {"id": "ec03d66fcea8850ab39fe2bce3814f30", "clr": -1.332094430183511, "W": 0}, {"id": "ee6a011da2550805c6fd434ab053464a", "clr": -1.644171584720008, "W": 1}, {"id": "f86222ce0aa7c48d5994451baf572b60", "clr": 2.1743491683589697, "W": 0}, {"id": "fb6835364f1d79a14457f24bc50738d0", "clr": -0.7687028473661084, "W": 0}, {"id": "fc3f584449d707e80bd4aa0efcd65508", "clr": 1.8277755780789975, "W": 0}]}], "scales": [{"name": "xScale", "domain": {"data": "values", "field": "clr"}, "range": "width"}, {"name": "yScale", "domain": {"data": "values", "field": "W"}, "range": "height"}], "axes": [{"scale": "xScale", "orient": "bottom", "title": "clr"}, {"scale": "yScale", "orient": "left", "title": "W"}], "marks": [{"type": "symbol", "from": {"data": "values"}, "encode": {"hover": {"fill": {"value": "#FF0000"}, "opacity": {"value": 1}}, "enter": {"x": {"scale": "xScale", "field": "clr"}, "y": {"scale": "yScale", "field": "W"}}, "update": {"fill": {"value": "black"}, "opacity": {"value": 0.3}, "tooltip": {"signal": "{'title': datum['id'], 'clr': datum['clr'], 'W': datum['W']}"}}}}]}</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    var spec = JSON.parse(document.getElementById('spec').innerHTML);
+
+    // Try and come up with a good initial estimate of plot dimensions,
+    // based on the browser dimensions.
+    var width = $('#plot').width() / 1.5;
+    var opts = {width: width, height: width / 2};
+
+    vegaEmbed('#plot', spec, opts).then(function(result) {
+      result.view.logLevel(vega.Warn);
+      // Stash the view object in global namespace for debugging purposes.
+      // Check out https://vega.github.io/vega/docs/api/debugging/
+      // for more details.
+      window.v = result.view;
+    }).catch(function(error) {
+      // From 'js-error-handler.html'
+      handleErrors([error], $('#plot'));
+    });
+
+    // Clean up the vega-embed toolbar
+    var toolbar = $('div .vega-actions').detach();
+    toolbar.addClass('btn-group');
+    toolbar.children('a').each(function() {
+      // NOTE: We're just skipping this bit until we get the plot working with
+      // Vega 5
+      if(this.innerHTML == "Open in Vega Editor"){
+        this.remove()
+        return true
+      }
+      $(this).addClass('btn btn-default');
+    });
+    $('<a href="data.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">Export as TSV</a>')
+      .prependTo(toolbar);
+    toolbar.appendTo('#toolbar');
+
+    // Util to mutate elements in-place
+    function cleanupEl(el, label, form_el) {
+      var e = $(el + ' .vega-bind');
+      e.children('span').replaceWith('<label>' + label + '&nbsp;</label');
+      if (form_el !== undefined) {
+        e.children(form_el).addClass('form-control');
+      }
+    }
+  });
+</script>
+
+
+  </body>
+</html>
